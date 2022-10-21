@@ -1,0 +1,25 @@
+{
+  "name": "sports-store-for-the-littles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallkr86/sports-store-for-the-littles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hallkr86/sports-store-for-the-littles/issues"
+  },
+  "homepage": "https://github.com/hallkr86/sports-store-for-the-littles#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.6.6"
+  }
+}
