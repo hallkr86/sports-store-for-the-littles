@@ -18,4 +18,7 @@ const SportSchema = new Schema({
             ref: "Item"
         }
     ]
-})
+});
+
+const Sport = mongoose.model("Sport", SportSchema);
+module.exports = Sport;
