@@ -10,10 +10,10 @@ app.use(express.json());
 
 mongoose.connect(process.env.MONGODB_URI|| "mongodb://localhost/sports-store-for-the-littles",
 {
-    useNewUrlParser:true,
-    useUnifiedTopology:true,
-    useCreateIndex:true,
-    useFindandModify:false,
+    // useNewUrlParser:true,
+    // useUnifiedTopology:true,
+    // useCreateIndex:true,
+    // useFindandModify:false,
 }
 );
 
