@@ -4,7 +4,7 @@ const router = express.Router();
 const db = require("../models");
 
 router.get("/api/sports", (req, res) => {
-    db.Sport.find({}).then (foundSports => {
+    db.Sport.find({}).populate("items").then (foundSports => {
         res.json(foundSports)
     })
     .catch((err) => {
