@@ -1,5 +1,4 @@
-const { model } = require("mongoose");
-
-model.exports = {
-    
-}
+module.exports = {
+    Sport: require("./Sport"),
+    Item: require("./Item"),
+};
