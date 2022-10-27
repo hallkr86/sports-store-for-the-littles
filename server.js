@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 
 const itemsController = require("./controllers/itemsController");
+const sportController = require("./controllers/sportController");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -36,7 +37,7 @@ app.get("/api/config", (req, res) => {
 });
 
 app.use(itemsController);
-
+app.use(sportController);
 
 
 app.listen(PORT, () => {
